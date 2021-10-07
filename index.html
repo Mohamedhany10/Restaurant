@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resturaunt</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/food.css">
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<!-- end -->
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">food<span>.</span></a>
+        <ul class="navigation">
+            <li><a href="#banner">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#menu">menu</a></li>
+            <li><a href="#Expert">Expert</a></li>
+            <li><a href="#Testimonials">Testimonials</a></li>
+            <li><a href="#contact">contact</a></li>
+            </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2 >always ch<span class="cc">oo</span>se good</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eaque eius perspiciatis ullam vel enim saepe blanditiis sint ex cupiditate eos, architecto quisquam, facere eligendi molestias! Delectus accusamus esse aliquam.</p>
+            <a href="#">our menu</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+            <h2 class="one"><span>A</span>bout Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni nulla itaque. Ullam, dolorum impedit. Dolore alias aperiam, eum aspernatur numquam, harum porro temporibus blanditiis non facilis corrupti ipsum consequuntur.</p>
+            <br><br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci magnam debitis aspernatur vero velit eaque voluptates, maxime suscipit distinctio sed similique corrupti eius fuga quia, architecto dolorum, voluptatum doloremque veritatis?</p>
+            </div>
+            
+            <div class="imgbx">
+                <img src="image/2.jpg" alt="">
+        </div>
+        </div>
+        <section class="menu" id="menu">
+            <div class="title">
+                <h2 class="one">Our<span>M</span>enu</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </section>
+
+    </section>
+    <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+        const header = document.querySelector('header');
+        header.classList.toggle("mo" , window.scrollY > 0);
+        });
+        </script>
+</body>
+</html>
